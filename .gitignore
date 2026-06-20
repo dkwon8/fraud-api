@@ -1,0 +1,14 @@
+venv/
+data/
+__pycache__/
+*.pyc
+.env
+mlflow.db
+mlruns/
+models/artifacts/
+*.joblib
+*.pt
+.DS_Store
+*.egg-info/
+dist/
+build/
