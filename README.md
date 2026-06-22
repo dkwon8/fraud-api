@@ -37,10 +37,11 @@ All metrics from actual training runs on the Kaggle Credit Card Fraud Detection 
 
 | Metric | Value |
 |---|---|
-| Precision | 0.6364 |
-| Recall | 0.2857 |
-| F1 Score | 0.3944 |
-| FPR | 0.000281 |
+| Precision | 0.2910 |
+| Recall | 0.5612 |
+| F1 Score | 0.3833 |
+| FPR | 0.002356 |
+| Threshold | 0.30 |
 | Scoring Latency (p99) | <50ms |
 
 ## Tech Stack

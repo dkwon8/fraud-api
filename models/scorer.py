@@ -7,7 +7,7 @@ from sklearn.metrics import (
 
 IF_WEIGHT = 0.4
 AE_WEIGHT = 0.6
-THRESHOLD = 0.5
+THRESHOLD = 0.3
 
 
 @dataclass
