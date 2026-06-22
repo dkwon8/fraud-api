@@ -1,5 +1,7 @@
 # Real-Time Fraud Detection API
 
+[![CI](https://github.com/dkwon8/fraud-api/actions/workflows/ci.yml/badge.svg)](https://github.com/dkwon8/fraud-api/actions/workflows/ci.yml)
+
 A production-style fraud detection system that scores credit card transactions in real time using an ensemble of an Isolation Forest and a PyTorch autoencoder, streamed through Kafka with a feedback loop for drift monitoring.
 
 ## Architecture
