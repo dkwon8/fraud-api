@@ -2,6 +2,7 @@ aiohappyeyeballs==2.6.2
 aiohttp==3.14.1
 aiokafka==0.14.0
 aiosignal==1.4.0
+aiosqlite==0.22.1
 alembic==1.18.4
 annotated-doc==0.0.4
 annotated-types==0.7.0
@@ -132,6 +133,7 @@ pydantic_core==2.46.4
 Pygments==2.20.0
 pyparsing==3.3.2
 pytest==9.1.1
+pytest-anyio==0.0.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.2
 python-json-logger==4.1.0
