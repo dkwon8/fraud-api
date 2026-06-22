@@ -122,9 +122,9 @@ async def score(req: ScoreRequest, db: AsyncSession = Depends(get_db)):
 
 @app.post("/label", response_model=LabelResponse)
 async def label(req: LabelRequest, db: AsyncSession = Depends(get_db)):
-    # Find the transaction by ID
+    # Find the transaction by ID (str() ensures compatibility with both Postgres and SQLite)
     result = await db.execute(
-        select(Transaction).where(Transaction.id == req.transaction_id)
+        select(Transaction).where(Transaction.id == str(req.transaction_id))
     )
     txn = result.scalar_one_or_none()
 
